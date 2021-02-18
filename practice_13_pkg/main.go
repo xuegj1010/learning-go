@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"learning-go/practice_pkg/action"
-	"learning-go/practice_pkg/model"
+	"learning-go/practice_13_pkg/action"
+	"learning-go/practice_13_pkg/model"
 )
 
 func main() {
@@ -35,4 +35,9 @@ func main() {
 	// go get 远程包名
 	//1.下载远程的源码包
 	//2.go install
+
+	//新建一个包，在这个包中我们定义一个功能，只是简单的打印，
+	//function 包
+	//	function.go
+	//		fmt.Println(xxxx)
 }
